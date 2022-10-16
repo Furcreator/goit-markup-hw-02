@@ -3,6 +3,9 @@
   --duo-text-color: #757575;
   --accent-color: #2196f3;
   --font--color: #ffffff;
+  --color-filters: #f5f4fa;
+  --color-futter: #2f303a;
+  --color-font-posters: #eeeeee;
 }
 
 body {
@@ -38,14 +41,23 @@ ul {
 /* HEADER */
 
 header > a {
-  font-family: "Relawey";
   letter-spacing: 0.03em;
 }
 
 .logo-full {
+  font-family: "Relawey", sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
+}
+
+.navigation {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
 }
 
 .navigation a {
@@ -58,7 +70,7 @@ header > a {
 
 .navigation a:hover,
 .navigation a:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .mail-tel a {
@@ -67,11 +79,11 @@ header > a {
 
 .mail-tel a:hover,
 .mail-tel a:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .logo {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 /* MAIN */
@@ -82,7 +94,7 @@ main {
 
 /* first section */
 .hat {
-  background-color: #2f303a;
+  background-color: var(--color-futter);
   color: var(--font--color);
   letter-spacing: 0.06em;
   font-weight: 900;
@@ -92,8 +104,25 @@ main {
   text-transform: uppercase;
 }
 
+.hero {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.hero-button {
+font-weight: 700;
+font-size: 16px;
+line-height: 1.9;
+display: flex;
+align-items: center;
+text-align: center;
+}
+
 .button {
-  background-color: #2196f3;
+  background-color: var(--accent-color);
   color: var(--font--color);
   border: none;
   cursor: pointer;
@@ -103,7 +132,6 @@ main {
 
 .hang h3 {
   color: var(--primary-text-color);
-  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
@@ -111,20 +139,27 @@ main {
 
 .hang p {
   color: var(--duo-text-color);
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
 }
 
-.hang h2 {
-  color: rgba(0, 0, 0, 0%);
+.screen-reader-text {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  word-wrap: normal !important;
 }
 
 /* third section */
 
 .occupation h2 {
   color: var(--primary-text-color);
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
   text-align: center;
@@ -132,12 +167,11 @@ main {
 
 /* four section */
 .team {
-  background-color: #f5f4fa;
+  background-color: var(--color-filters);
 }
 
 .team h2 {
   color: var(--primary-text-color);
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
   text-align: center;
@@ -153,7 +187,6 @@ main {
 
 .team p {
   color: var(--duo-text-color);
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.2;
   text-align: center;
@@ -166,7 +199,7 @@ main {
 /* FOOTER */
 
 .cellar {
-  background-color: #2f303a;
+  background-color: var(--color-futter);
 }
 
 .cellar a {
@@ -175,7 +208,7 @@ main {
 
 .adds {
   color: var(--font--color);
-  font-weight: 400;
+  font-style: normal;
   font-size: 14px;
   line-height: 1.7;
 }
@@ -196,7 +229,7 @@ main {
 /* MAIN */
 
 .filters {
-  background-color: #f5f4fa;
+  background-color: var(--color-filters);
   color: var(--primary-text-color);
   border: none;
   cursor: pointer;
@@ -214,21 +247,19 @@ main {
 }
 
 .posters li {
-  border: 1px solid #eeeeee;
+  border: 1px solid var(--color-font-posters);
   box-sizing: border-box;
   letter-spacing: 0.06em;
 }
 
 .posters h2 {
   color: var(--primary-text-color);
-  font-weight: 700;
   font-size: 18px;
   line-height: 2;
 }
 
 .posters p {
   color: var(--duo-text-color);
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.9;
 }
