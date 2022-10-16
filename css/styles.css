@@ -1,0 +1,234 @@
+:root {
+  --primary-text-color: #212121;
+  --duo-text-color: #757575;
+  --accent-color: #2196f3;
+  --font--color: #ffffff;
+}
+
+body {
+  background-color: var(--font--color);
+  color: var(--primary-text-color);
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+ul {
+  list-style: none;
+}
+
+/* основной цвет текста #212121 */
+/* вторичный цвет текста #757575 */
+/* цвет главного текста шапки и полного фона #FFFFFF */
+/* цвет кнопки и акцентов #2196F3 */
+/* цвет кнопки фильтра и 4 секции фона #F5F4FA */
+/* фон футера и 1 секции #2F303A */
+
+/* INDEX HTML STUDIO */ /* INDEX HTML STUDIO */ /* INDEX HTML STUDIO */ /* INDEX HTML STUDIO */ /* INDEX HTML STUDIO */
+
+/* INDEX HTML STUDIO */ /* INDEX HTML STUDIO */ /* INDEX HTML STUDIO */ /* INDEX HTML STUDIO */ /* INDEX HTML STUDIO */
+
+/* INDEX HTML STUDIO */ /* INDEX HTML STUDIO */ /* INDEX HTML STUDIO */ /* INDEX HTML STUDIO */ /* INDEX HTML STUDIO */
+
+/* INDEX HTML STUDIO */ /* INDEX HTML STUDIO */ /* INDEX HTML STUDIO */ /* INDEX HTML STUDIO */ /* INDEX HTML STUDIO */
+
+/* HEADER */
+
+header > a {
+  font-family: "Relawey";
+  letter-spacing: 0.03em;
+}
+
+.logo-full {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+}
+
+.navigation a {
+  color: var(--primary-text-color);
+}
+
+.navigation .current {
+  color: var(--accent-color);
+}
+
+.navigation a:hover,
+.navigation a:focus {
+  color: #2196f3;
+}
+
+.mail-tel a {
+  color: var(--duo-text-color);
+}
+
+.mail-tel a:hover,
+.mail-tel a:focus {
+  color: #2196f3;
+}
+
+.logo {
+  color: #2196f3;
+}
+
+/* MAIN */
+
+main {
+  letter-spacing: 0.03em;
+}
+
+/* first section */
+.hat {
+  background-color: #2f303a;
+  color: var(--font--color);
+  letter-spacing: 0.06em;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.button {
+  background-color: #2196f3;
+  color: var(--font--color);
+  border: none;
+  cursor: pointer;
+}
+
+/* second section */
+
+.hang h3 {
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.hang p {
+  color: var(--duo-text-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.hang h2 {
+  color: rgba(0, 0, 0, 0%);
+}
+
+/* third section */
+
+.occupation h2 {
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+/* four section */
+.team {
+  background-color: #f5f4fa;
+}
+
+.team h2 {
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.team h3 {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.team p {
+  color: var(--duo-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.team li {
+  background-color: var(--font--color);
+}
+
+/* FOOTER */
+
+.cellar {
+  background-color: #2f303a;
+}
+
+.cellar a {
+  color: var(--font--color);
+}
+
+.adds {
+  color: var(--font--color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.adds a:hover,
+.adds a:focus {
+  color: var(--accent-color);
+}
+
+.contacts a {
+  color: rgba(255, 255, 255, 60%);
+}
+
+/* PORTFOLIO HTML STUDIO */ /* PORTFOLIO HTML STUDIO */ /* PORTFOLIO HTML STUDIO */ /* PORTFOLIO HTML STUDIO */ /* PORTFOLIO HTML STUDIO */
+
+/* PORTFOLIO HTML STUDIO */ /* PORTFOLIO HTML STUDIO */ /*  PORTFOLIO TML STUDIO */ /* PORTFOLIO HTML STUDIO */ /* PORTFOLIO HTML STUDIO */
+
+/* MAIN */
+
+.filters {
+  background-color: #f5f4fa;
+  color: var(--primary-text-color);
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.filters:hover,
+.filters:focus {
+  background-color: var(--accent-color);
+  color: var(--font--color);
+}
+
+.posters li {
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+  letter-spacing: 0.06em;
+}
+
+.posters h2 {
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
+
+.posters p {
+  color: var(--duo-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.9;
+}
